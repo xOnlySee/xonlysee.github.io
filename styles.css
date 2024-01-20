@@ -8,6 +8,7 @@ html {
     background-color: #1d1d1d; 
     color: #fff;
     min-height: 100%;
+    zoom: 90%;
 }
 
 body::before {
@@ -126,18 +127,16 @@ h1 {
     border-radius: 10px;
 }
 
-/* Estilo para los proyectos */
 .projects {
     display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
+    flex-wrap: wrap; 
+    justify-content: space-around; 
 }
 
-/*  Estilo para los proyectos individuales */
+/* Estilo para los proyectos */
 .project {
-    width: 200px;
-    height: auto;
+    flex: 0 0 calc(200px - 20px); 
+    height: auto; 
     transition: all 0.3s ease-in-out;
     margin-bottom: 20px;
     position: relative;
@@ -147,6 +146,18 @@ h1 {
     flex-direction: column;
     align-items: center;
     cursor: pointer;
+    background-color: #1f1f1f;
+    border-radius: 10px; 
+}
+
+/*  Estilo para los proyectos individuales */
+.project img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    max-height: 60%;
+    margin-bottom: 10px;
+    border-radius: 10px;
 }
 
 /**

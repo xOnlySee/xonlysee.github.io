@@ -113,7 +113,7 @@ function portfolio(panel) {
             <div class="project" onclick="zoomProjects(this)">
                 <img src="archivos/imagenes/REFramework.png" alt="Proyecto 6">
                 <h3>RPA (Automatización de Procesos)</h3>
-                <p>Proyecto desarrollado a modo de práctica durante el curso de RPA de tres meses. Para obtener información más detallada, visitar el repositorio.</p>
+                <p>Unos de los proyectos desarrollados a modo de práctica durante el curso de RPA de tres meses. Para obtener información más detallada, visitar el repositorio.</p>
                 <a href="https://github.com/xOnlySee/RPA-Practica-REFramework/tree/main">Enlace a GitHub</a>
             </div>
         </div>
