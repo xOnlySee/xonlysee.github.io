@@ -102,6 +102,20 @@ function portfolio(panel) {
                 <p>Aplicación móvil que me encuentro desarrollando a largo plazo para fortalecer y aprender nuevos conocmientos del desarrollo Android.</p>
                 <a href="https://github.com/xOnlySee/BlackBox">Enlace a GitHub</a>
             </div>
+
+            <div class="project" onclick="zoomProjects(this)">
+                <img src="archivos/imagenes/Taller4.png" alt="Proyecto 5">
+                <h3>SPFx</h3>
+                <p>Conjunto de dos proyectos desarrollados usando SPFx para el curso de SharePoint. Para obtener más información de ambos proyectos, acceder a mi repositorio de GitHub.</p>
+                <a href="https://github.com/xOnlySee/Hiberus/tree/main">Enlace a GitHub</a>
+            </div>
+
+            <div class="project" onclick="zoomProjects(this)">
+                <img src="archivos/imagenes/REFramework.png" alt="Proyecto 6">
+                <h3>RPA (Automatización de Procesos)</h3>
+                <p>Proyecto desarrollado a modo de práctica durante el curso de RPA de tres meses. Para obtener información más detallada, visitar el repositorio.</p>
+                <a href="https://github.com/xOnlySee/RPA-Practica-REFramework/tree/main">Enlace a GitHub</a>
+            </div>
         </div>
     `;
 }
