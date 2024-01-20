@@ -49,8 +49,6 @@ body::before {
 }
 
 /* Estilos para el panel izquierdo */
-
-/* Estilos para el panel izquierdo */
 .left-panel {
     width: 250px;
     background: url('https://www.transparenttextures.com/patterns/stardust.png');
@@ -186,7 +184,7 @@ h1 {
 }
 
 .project a:hover {
-    color: #2980b9; /* Cambio de color al pasar el ratón */
+    color: #2980b9;
 }
 
 /**
