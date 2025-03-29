@@ -62,7 +62,7 @@ function jesus(panel) {
 function sobremi(panel) {
     panel.innerHTML = `
         <h1>SOBRE MI</h1>
-        <p>Programador Junior | Desarrollador de Aplicaciones 👨🏻‍💻 Apasionado por la programación y la resolución de desafíos tecnológicos.Con dos títulos en mi haber - grado medio en Sistemas Microinformáticos y Redes, y grado superior en Desarrollo de Aplicaciones Multiplataforma - mi enfoque se ha centrado en convertir la lógica en soluciones innovadoras. Como programador Junior, he adquirido valiosa experiencia trabajando con una variedad de tecnologías y lenguajes. Mi destreza incluye el manejo experto de bases de datos como FireBase, MySQL y PostrgreSQL, así como el dominio de lenguajes como Java, C# y Python. Además, mi curiosidad y sed de conocimiento me han llevado a explorar herramientas como VisualBasic, React, JavaScript y TypeScript, ampliando mi conjunto de habilidades y abriendo nuevas posibilidades para la resolución de problemas. Durante tres enriquecedores meses, me sumergí en el uso de SharePoint de Microsoft, ampliando mi comprensión de soluciones empresariales y su integración tecnológica.Mi enfoque en el aprendizaje continuo se refleja en mis proyectos personales. Actualmente, me embarco en el desarrollo de una aplicación Android en mis momentos libres, una oportunidad para expandir mis habilidades y profundizar en el mundo del desarrollo móvil. Más allá del código, disfruto de mi tiempo con mis mascotas, mi familia y amigos, y encuentro inspiración en la música. Estoy emocionado por seguir creciendo profesionalmente en el mundo de la programación, enfrentando nuevos desafíos y contribuyendo a soluciones innovadoras.<br><h4>ACTUALMENTE ME ENCUENTRO EN BUSQUEDA ACTIVA DE EMPLEO</h4><br><p>Mira mi perfil completo en <a href="https://www.linkedin.com/in/jes%C3%BAs-escudero-gabarre-0741581ab/">Linkedin</p>
+        <p>Programador Junior | Desarrollador de Aplicaciones 👨🏻‍💻 Apasionado por la programación y la resolución de desafíos tecnológicos.Con dos títulos en mi haber - grado medio en Sistemas Microinformáticos y Redes, y grado superior en Desarrollo de Aplicaciones Multiplataforma - mi enfoque se ha centrado en convertir la lógica en soluciones innovadoras. Como programador Junior, he adquirido valiosa experiencia trabajando con una variedad de tecnologías y lenguajes. Mi destreza incluye el manejo experto de bases de datos como FireBase, MySQL y PostrgreSQL, así como el dominio de lenguajes como Java, C# y Python. Además, mi curiosidad y sed de conocimiento me han llevado a explorar herramientas como VisualBasic, React, JavaScript y TypeScript, ampliando mi conjunto de habilidades y abriendo nuevas posibilidades para la resolución de problemas. Durante tres enriquecedores meses, me sumergí en el uso de SharePoint de Microsoft, ampliando mi comprensión de soluciones empresariales y su integración tecnológica.Mi enfoque en el aprendizaje continuo se refleja en mis proyectos personales. Actualmente, me embarco en el desarrollo de una aplicación Android en mis momentos libres, una oportunidad para expandir mis habilidades y profundizar en el mundo del desarrollo móvil. Más allá del código, disfruto de mi tiempo con mis mascotas, mi familia y amigos, y encuentro inspiración en la música. Estoy emocionado por seguir creciendo profesionalmente en el mundo de la programación, enfrentando nuevos desafíos y contribuyendo a soluciones innovadoras.<br><h4 hidden>ACTUALMENTE ME ENCUENTRO EN BUSQUEDA ACTIVA DE EMPLEO</h4><br><p>Mira mi perfil completo en <a href="https://www.linkedin.com/in/jes%C3%BAs-escudero-gabarre-0741581ab/">Linkedin</p>
     `;
 }
 
@@ -174,7 +174,8 @@ function skills(panel) {
                     <li style="font-size: 16px; margin-bottom: 5px">Python</li>
                     <li style="font-size: 16px; margin-bottom: 5px">C#</li>
                     <li style="font-size: 16px; margin-bottom: 5px">Javascript</li>
-                    <li style="font-size: 16px; margin-bottom: 5px">Typescript</li>
+                    <li style="font-size: 16px; margin-bottom: 5px">R</li>
+                    <li style="font-size: 16px; margin-bottom: 5px">NodeJS</li>
                 </ul>
             </div>
 
@@ -230,6 +231,15 @@ function mostrarTitulos() {
 function mostrarExperiencias() {
     const contentPanel = document.getElementById('contentPanel');
     contentPanel.innerHTML = `
+    <h2 style="text-align: center">Experiencia laboral</h2>
+        <div>
+            <h3>Desarrollador Full Stack</h3>
+            <h4>Horse, Valladolid</h4>
+            <p>Feberero 2024 - presente</p>
+            <p>PDesarrollador Full Stack con experiencia en la creación de páginas web y automatización de informes para la alimentación automática de datos. Gestiono permisos en entornos de PowerApps, además de trabajar con PowerShell y SharePoint. También brindo soporte técnico y optimizo procesos para mejorar la eficiencia operativa.</p>
+        </div>
+        <div>
+        <br>
         <h2 style="text-align: center">Prácticas</h2>
         <div>
             <h3>Grado superior de Desarrollo de Aplicaciones Multiplataforma</h3>
